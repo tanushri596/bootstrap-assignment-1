@@ -1,0 +1,44 @@
+.about
+{
+   text-decoration: none;
+}
+
+.about:hover
+{
+    text-decoration: none;
+}
+
+.bcolor
+{
+    background-color: #e6e6c1;
+}
+
+.tsize
+{
+ font-size: larger;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.navbcolor
+{
+    background-color:rgba(4, 29, 75, 0.801)
+    
+}
+
+.active
+{
+    background-color:rgba(4, 29, 75, 0.801) 
+    
+}
+
+
+.bordcolor
+{
+    background-color:rgba(4, 29, 75, 0.938)
+}
+
+.staffColor
+{
+    background-color: rgb(50, 50, 104)
+
+}
