@@ -14,10 +14,10 @@
 <body>
 
     <!-- Navbar starts here -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success" >
+    <nav class="navbar navbar-expand-lg navbar-dark navBg" >
         <div class="container">
             <a class="navbar-brand text-lg" href="index.html" >
-                <button class="btn rounded-2 p-4 tsize m-2 navbcolor text-white">Blossom Sage
+                <button class="btn rounded-2 p-4 tsize m-2 text-black">Blossom Sage
                     
                 </button>
             </a>
@@ -27,11 +27,11 @@
             <div class="collapse navbar-collapse" id="navbarNav" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-lg" href="index.html">
+                        <a class="nav-link active text-lg text-dark" href="index.html">
                             <b>Home</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-lg" href="contact.html">
+                        <a class="nav-link text-lg text-dark" href="contact.html">
                             <b>Contact Us</b>
                         </a>
                     </li>
@@ -50,7 +50,7 @@
             <h2 class="pb-3"><b>Our Services</b></h2>
             <div class="row">
                 <div class="col-md-12 col-lg-4">
-                    <div class="card mb-4 shadow-lg p-3 mb-5 bg-white rounded">
+                    <div class="card cardShadow p-3 mb-5 bg-white rounded ">
                         <img src="landscape.jpg" class="card-img-top" alt="Service 1">
                         <div class="card-body bg-success">
                             <h5 class="card-title"><b>Landscape Designing</b></h5>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <div class="card mb-4 shadow-lg p-3 mb-5 bg-white rounded">
+                    <div class="card cardShadow p-3 mb-5 bg-white rounded ">
                         <img src="maintenance.jpg" class="card-img-top" alt="Service 2">
                         <div class="card-body bg-success">
                             <h5><b>Garden Maintenance</b></h5>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <div class="card mb-4 shadow-lg p-3 mb-5 bg-white rounded">
+                    <div class="card cardShadow p-3 mb-5 bg-white rounded ">
                         <img src="plantcare.jpg" class="card-img-top" alt="Service 3">
                         <div class="card-body bg-success">
                            <h5><b>Plant care</b></h5>
@@ -88,58 +88,87 @@
   <!-- services ends here -->
 
 
-  <section class="services bg-light py-5">
-    <div class="container">
-        <h2 class="pb-3"><b>Our Top Achievements</b></h2>
-        <div class="row">
-            <div class="col-md-12 col-lg-4">
-                <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
-                    <img src="garden1.jpg" class="card-img-top" alt="Garden1">
-                    <div class="card-body bg-white ">
-                        <h5 class="card-title"><b>Infinite Green</b></h5>
-                        <hr>
-                        <div class="bcolor p-3">
-                        <p>Located at</p>
-                        <p class="card-text"><b>Mall Road, Darjeeling, West Bengal, India </b>
+  
+  <!-- Carousel starts here -->
 
-                        </p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
-                    <img src="garden2.jpg" class="card-img-top" alt="Garden2">
-                    <div class="card-body bg-white">
-                        <h5><b>Larkin Sunset Gardens</b></h5>
-                        <hr>
-                        <div class="bcolor p-3">
-                            <p>Located At</p>
-                             <p class="card-text"><b>Botanical Garden, Howrah , West Bengal, India</b></p>
-                         </div>
+
+
+
+<section class="carousel-space">
+    <div class="container">
+    <h2 class="pb-3"><b>Our Achievements</b></h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item p-5 active">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
+                            <img src="garden1.jpg" class="card-img-top" alt="Garden1">
+                            <div class="card-body bg-white ">
+                                <h5 class="card-title"><b>Infinite Green</b></h5>
+                                <hr>
+                                <div class="bcolor p-3">
+                                <p>Located at</p>
+                                <p class="card-text"><b>Mall Road, Darjeeling, West Bengal, India </b>
+        
+                                </p>
+                            </div>
+                            </div>
                         </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
-                    <img src="garden3.jpg" class="card-img-top" alt="Garden3">
-                    <div class="card-body bg-white">
-                       <h5><b>Botanic Heaven</b></h5>
-                       <hr>
-                       <div class="bcolor p-3">
-                       <p>Located At</p>
-                        <p class="card-text"><b>Central Park, Birmingham, United Kingdom</b></p>
-                    </div>
                     </div>
                 </div>
             </div>
-            
+            <div class="carousel-item  p-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
+                            <img src="garden2.jpg" class="card-img-top" alt="Garden2">
+                            <div class="card-body bg-white">
+                                <h5><b>Larkin Sunset Gardens</b></h5>
+                                <hr>
+                                <div class="bcolor p-3">
+                                    <p>Located At</p>
+                                     <p class="card-text"><b>Botanical Garden, Howrah , West Bengal, India</b></p>
+                                 </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item p-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card mb-4 shadow-lg p-3 mb-5 bg-success rounded">
+                            <img src="garden3.jpg" class="card-img-top" alt="Garden3">
+                            <div class="card-body bg-white">
+                                <h5><b>Botanic Heaven</b></h5>
+                                <hr>
+                                <div class="bcolor p-3">
+                                    <p>Located At</p>
+                                    <p class="card-text"><b>Central Park, Birmingham, United Kingdom</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
     </div>
+</div>
 </section>
 
-
-
+<!-- Carousel ends here -->
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>

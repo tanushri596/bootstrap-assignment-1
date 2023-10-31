@@ -19,15 +19,15 @@
  font-family: 'Courier New', Courier, monospace;
 }
 
-.navbcolor
+.navBg
 {
-    background-color:rgba(4, 29, 75, 0.801)
+    background-color:rgba(156, 233, 233, 0.801)
     
 }
 
-.active
+.navbar .active
 {
-    background-color:rgba(4, 29, 75, 0.801) 
+    background-color:rgba(173, 192, 226, 0.801) 
     
 }
 
@@ -39,6 +39,32 @@
 
 .staffColor
 {
-    background-color: rgb(50, 50, 104)
+    background-color: rgb(2,3,2)
 
 }
+
+.carousel-item
+{
+    background-color: rgb(11, 32, 1);
+
+
+}
+
+.carousel-space
+{
+    margin-bottom: 100px;
+}
+
+.openingColor
+{
+    background-color: rgb(2, 3, 2);
+}
+
+.cardShadow
+{
+    border-radius: 50px;
+    background: #d67aab;
+    box-shadow:  10px 10px 40px #b66891,
+                 -10px -10px 40px #f68cc5;
+}
+

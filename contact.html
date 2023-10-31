@@ -12,10 +12,10 @@
     <title>Gardening Guru</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success" >
+    <nav class="navbar navbar-expand-lg navbar-dark navBg" >
         <div class="container">
             <a class="navbar-brand text-lg" href="index.html" >
-                <button class="btn rounded-2 p-4 tsize m-2 navbcolor text-white">Blossom Sage
+                <button class="btn rounded-2 p-4 tsize m-2  text-dark">Blossom Sage
                     
                 </button>
             </a>
@@ -25,11 +25,11 @@
             <div class="collapse navbar-collapse" id="navbarNav" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-lg" href="index.html">
+                        <a class="nav-link text-lg text-dark" href="index.html">
                            <b>Home</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-lg" href="contact.html">
+                        <a class="nav-link active text-lg text-dark" href="contact.html">
                             <b>Contact Us</b>
                         </a>
                     </li>
@@ -109,7 +109,7 @@
 
     <section id="staff" class="text-center py-5 m-5 staffColor text-white">
         <div class="container">
-            <h1>Our Staff</h1>
+            <h1>Our Jewels</h1>
             <hr>
             <div class="row bg-white text-dark">
                 <div class="col-md-4 mt-2">
@@ -131,6 +131,148 @@
             </div>
         </div>
     </section>
+
+    <section id="staff" class="text-center py-5 m-5 openingColor text-white">
+        <div class="container">
+            <h1>Our Job Openings</h1>
+            <hr>
+            <div class="row bg-white text-dark">
+                <div class="col-md-4">
+                    <img src="designer.jpeg" alt="" class="img-fluid rounded-circle m-2">
+                    <button class="m-4 bg-success" data-toggle="modal" data-target="#designerModal">
+                        <h4><b>Landscape Designer</b></h4>
+                       
+                    </button>
+                    
+                    
+                    
+                </div>
+                <div class="col-md-4">
+                    <img src="pestControl.jpeg" alt="" class="img-fluid rounded-circle m-2">
+                    <button class="m-4 bg-primary" data-toggle="modal" data-target="#controllerModal">
+                        <h4><b>Pest Controller</b></h4>
+                    </button>
+                    <br>
+                    
+                </div>
+                <div class="col-md-4">
+                    <img src="maintainer.jpeg" alt="" class="img-fluid rounded-circle m-2">
+                    <button class="m-4 bg-warning" data-toggle="modal" data-target="#maintainerModal">
+                        <h4><b>Garden Maintainer</b></h4>
+                    </button>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade text-dark" id="controllerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fill the form</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+              <div class="modal-body ">
+                
+                    <form >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Address</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary btn-block">Submit</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade text-dark" id="designerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fill the form</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+              <div class="modal-body ">
+                <form >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Address</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Show us your best work</label>
+                        <input type="file" class="form-control">
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-success btn-block">Submit</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade text-dark" id="maintainerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fill the form</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+              <div class="modal-body ">
+                <form >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Address</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Show us your best work</label>
+                        <input type="file" class="form-control">
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-block btn-warning">Submit</button>
+              </div>
+            </div>
+        </div>
+    </div>
     
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
